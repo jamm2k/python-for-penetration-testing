@@ -1,8 +1,8 @@
 Caesar cipher python implementation
 
 caesar.py:
-    commands:
 
+    commands:
         ./caesar.py [plain text (.txt)] [key (number)] [mode (enc/dec)]
 
         or
@@ -10,7 +10,6 @@ caesar.py:
         python2 ./caesar.py [plain text (.txt)] [key (number)] [mode (enc/dec)]
 
     examples:
-
         python2 ./caesar.py ./caesar-decrypted.txt 18 enc >> encrypted-text.txt
         python2 ./caesar.py ./caesar-encrypted.txt 15 dec
 
